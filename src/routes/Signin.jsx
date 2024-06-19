@@ -1,7 +1,10 @@
 import React from "react";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, ImageOff } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
-function Signin() {
+function SignUpPage() {
+  const navigate = useNavigate();
+
   return (
     <div>
       <section>
@@ -55,6 +58,9 @@ function Signin() {
                 </div>
                 <div>
                   <button
+                    onClick={() => {
+                      navigate("/dashboard");
+                    }}
                     type="button"
                     className="inline-flex w-full items-center justify-center rounded-md bg-black px-3.5 py-2.5 font-semibold leading-7 text-white hover:bg-black/80">
                     Log In <ArrowRight className="ml-2" size={16} />
@@ -81,4 +87,4 @@ function Signin() {
   );
 }
 
-export default Signin;
+export default SignUpPage;
