@@ -1,11 +1,11 @@
 import React from "react";
 
-import SignIn from "../components/SignIn";
+import Signin from "./components/Signin";
 
 export default function App() {
   return (
     <div>
-      <SignIn />
+      <Signin />
     </div>
   );
 }
