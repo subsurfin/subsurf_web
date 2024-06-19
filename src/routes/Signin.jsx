@@ -60,14 +60,15 @@ function Signin() {
                     Log In <ArrowRight className="ml-2" size={16} />
                   </button>
                 </div>
-                <div>
-                  <p className="mt-2 text-center text-sm text-gray-600 ">
+                <div className="">
+                  <br />
+                  <p className="mt-4 text-center text-sm text-gray-600 ">
                     Don&apos;t have an account?{" "}
                     <a
                       href="https://t.me/subsurfin"
                       title="telegram"
                       className="font-semibold text-black transition-all duration-200 hover:underline">
-                      Create a free account
+                      sign up
                     </a>
                   </p>
                 </div>
