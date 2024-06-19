@@ -68,7 +68,7 @@ function Signin() {
                       href="https://t.me/subsurfin"
                       title="telegram"
                       className="font-semibold text-black transition-all duration-200 hover:underline">
-                      sign up
+                      click here to sign up
                     </a>
                   </p>
                 </div>
