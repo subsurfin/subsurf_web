@@ -8,6 +8,7 @@ function App() {
         <Routes>
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/" element={<SignUpPage />} />
+          <Route path="/bro" element={<h1>Not Found</h1>} />
         </Routes>
       </BrowserRouter>
     </div>
